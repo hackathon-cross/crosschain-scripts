@@ -15,10 +15,10 @@ PROTOCOL_URL := https://raw.githubusercontent.com/nervosnetwork/ckb/${PROTOCOL_V
 # docker pull nervos/ckb-riscv-gnu-toolchain:gnu-bionic-20191012
 BUILDER_DOCKER := nervos/ckb-riscv-gnu-toolchain@sha256:aae8a3f79705f67d505d1f1d5ddc694a4fd537ed1c7e9622420a470d59ba2ec3
 
-all-via-docker: ${PROTOCOL_HEADER} build/or.h
-	docker run --rm -v `pwd`:/code ${BUILDER_DOCKER} bash -c "cd /code && make all"
+all: build/htlc build/secp256k1_blake2b_sighash_all_lib.so build/or build/simple_udt build/crosschain_lockscript build/crosschain_typescript
 
-all: build/crosschain_lockscript build/crosschain_typescript
+all-via-docker: ${PROTOCOL_HEADER} build/or.h
+	docker run --rm -v `pwd`:/code ${BUILDER_DOCKER} bash -c "cd /code && make"
 
 build/crosschain_lockscript: c/crosschain_lockscript.c
 	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $<
