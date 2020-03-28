@@ -37,7 +37,7 @@ int main() {
   }
 
     uint8_t buffer[BLAKE2B_BLOCK_SIZE];
-    uint64_t len = BLAKE2B_BLOCK_SIZE;
+    uint64_t len2 = BLAKE2B_BLOCK_SIZE;
     ret = ckb_checked_load_cell_by_field(buffer, &len, 0, 0, CKB_SOURCE_INPUT,
                                          CKB_CELL_FIELD_TYPE_HASH);
     if (ret == CKB_INDEX_OUT_OF_BOUND) {
@@ -46,7 +46,7 @@ int main() {
     if (ret != CKB_SUCCESS) {
       return ret;
     }
-    if (len != BLAKE2B_BLOCK_SIZE) {
+    if (len2 != BLAKE2B_BLOCK_SIZE) {
       return ERROR_ENCODING;
     }
     if (memcmp(buffer, args_bytes_seg.ptr, BLAKE2B_BLOCK_SIZE) == 0) {
