@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="crosschain-scripts"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="htlc">
+				<Option output="/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/htlc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/build"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/ckb-c-stdlib"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/molecule"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/secp256k1"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/secp256k1/include"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/secp256k1/src"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/c"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 htlc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="htlc/fast">
+				<Option output="/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/htlc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/build"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/ckb-c-stdlib"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/molecule"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/secp256k1"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/secp256k1/include"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/secp256k1/src"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/c"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 htlc/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="secp">
+				<Option output="/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/secp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/build"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/ckb-c-stdlib"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/molecule"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/secp256k1"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/secp256k1/include"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/secp256k1/src"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/c"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 secp"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="secp/fast">
+				<Option output="/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/secp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/build"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/ckb-c-stdlib"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/molecule"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/secp256k1"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/secp256k1/include"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/secp256k1/src"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/c"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 secp/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="type">
+				<Option output="/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/type" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/build"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/ckb-c-stdlib"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/molecule"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/secp256k1"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/secp256k1/include"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/secp256k1/src"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/c"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 type"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="type/fast">
+				<Option output="/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/type" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/build"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/ckb-c-stdlib"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/molecule"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/secp256k1"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/secp256k1/include"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/secp256k1/src"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/c"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 type/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sudt">
+				<Option output="/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/sudt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/build"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/ckb-c-stdlib"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/molecule"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/secp256k1"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/secp256k1/include"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/secp256k1/src"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/c"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 sudt"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sudt/fast">
+				<Option output="/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/sudt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/build"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/ckb-c-stdlib"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/molecule"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/secp256k1"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/secp256k1/include"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/secp256k1/src"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/c"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 sudt/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lock">
+				<Option output="/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/lock" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/build"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/ckb-c-stdlib"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/molecule"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/secp256k1"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/secp256k1/include"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/secp256k1/src"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/c"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 lock"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lock/fast">
+				<Option output="/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/lock" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/build"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/ckb-c-stdlib"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/molecule"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/secp256k1"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/secp256k1/include"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/deps/secp256k1/src"/>
+					<Add directory="/Users/hyz/CLionProjects/crosschain-scripts/c"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 lock/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/hyz/CLionProjects/crosschain-scripts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/hyz/CLionProjects/crosschain-scripts/c/crosschain_lockscript.c">
+			<Option target="lock"/>
+		</Unit>
+		<Unit filename="/Users/hyz/CLionProjects/crosschain-scripts/c/crosschain_typescript.c">
+			<Option target="type"/>
+		</Unit>
+		<Unit filename="/Users/hyz/CLionProjects/crosschain-scripts/c/htlc.c">
+			<Option target="htlc"/>
+		</Unit>
+		<Unit filename="/Users/hyz/CLionProjects/crosschain-scripts/c/secp256k1_blake2b_sighash_all_lib.c">
+			<Option target="secp"/>
+		</Unit>
+		<Unit filename="/Users/hyz/CLionProjects/crosschain-scripts/c/simple_udt.c">
+			<Option target="sudt"/>
+		</Unit>
+		<Unit filename="/Users/hyz/CLionProjects/crosschain-scripts/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -46,7 +46,6 @@ int ckb_secp256k1_custom_verify_only_initialize(secp256k1_context* context,
   if (ret != CKB_SUCCESS || len != CKB_SECP256K1_DATA_SIZE) {
     return CKB_SECP256K1_HELPER_ERROR_LOADING_DATA;
   }
-
   context->illegal_callback = default_illegal_callback;
   context->error_callback = default_error_callback;
 

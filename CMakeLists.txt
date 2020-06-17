@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.16)
+project(crosschain-scripts C)
+
+set(CMAKE_C_STANDARD 99)
+include_directories(build deps deps/ckb-c-stdlib deps/molecule deps/secp256k1 deps/secp256k1/include deps/secp256k1/src c)
+add_executable(lock c/crosschain_lockscript.c)
+add_executable(type c/crosschain_typescript.c)
+add_executable(htlc c/htlc.c)
+add_executable(sudt c/simple_udt.c)
+add_executable(secp c/secp256k1_blake2b_sighash_all_lib.c)
